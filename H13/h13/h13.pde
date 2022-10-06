@@ -103,4 +103,16 @@ if(e1<=10)      // als links gescoord word puntje rechts
 e1 = 250;          // bal gaat naar midden terug
 e2 = 250;
 }
+
+
+if (e1 >= 440 && e2 > y2 && e2 < (y2 + 100)) {
+  rechts = false;
+}
+
+if (e1 <= 50 && e2 > y1 && e2 < (y1 + 100)){
+  rechts = true;
+  
+}
+
+
 }
